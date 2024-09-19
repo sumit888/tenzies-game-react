@@ -5,7 +5,7 @@ function Dice(props){
     }
 
     return(<>
-        <section className="dice-box" style={styles}>
+        <section className="dice-box" style={styles} onClick={props.holdDice}>
             <h1 className="dice-num">{props.value}</h1>
         </section>
     </>)
